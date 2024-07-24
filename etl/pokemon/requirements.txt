@@ -1,0 +1,6 @@
+requests==2.31.0
+pandas==1.5.3
+numpy==1.24.4
+glom==23.3.0
+google-cloud-bigquery==3.20.1
+functions-framework==3.7.0
