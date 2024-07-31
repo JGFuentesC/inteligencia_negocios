@@ -1,3 +1,4 @@
 **/*.json
 **/*.pickle
 **/*.csv
+**/__pycache__

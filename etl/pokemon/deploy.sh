@@ -1,0 +1,12 @@
+gcloud functions deploy etl-pokemon\
+  --runtime=python311 \
+  --gen2 \
+  --memory=512MB \
+  --cpu 1 \
+  --entry-point=etlPokemon \
+  --trigger-http \
+  --max-instances=1 \
+  --service-account=etl-anahuac@anahuac-bi.iam.gserviceaccount.com \
+  --timeout=60s \
+  --region=us-central1 \
+  --source=. 
