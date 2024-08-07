@@ -1,0 +1,6 @@
+**/__pycache__/
+data/
+tests.ipynb
+partir(de chocolate).ipynb
+deploy.sh
+.gcloudignore
