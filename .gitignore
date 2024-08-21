@@ -2,3 +2,5 @@
 **/*.pickle
 **/*.csv
 **/__pycache__
+**/*.parquet
+**/.DS_Store
